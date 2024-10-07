@@ -1,0 +1,91 @@
+.formato-texto {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+
+div.formato-rectangulo {
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 65px;
+    width: 160px;
+    text-align: center;
+
+}
+.formato-cajaA{
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 65px;
+    width: 160px;
+    text-align: center; 
+    border-bottom-right-radius: 62px;
+
+
+}
+.formato-cajaB {
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 65px;
+    width: 160px;
+    text-align: center;
+    border-top-left-radius: 62px;
+}
+.formato-cajaC {
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 65px;
+    width: 160px;
+    text-align: center; 
+    border-radius:22px;
+
+}
+.formato-cajaD {
+    background-color: #464646;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 65px;
+    width: 160px;
+    text-align: center;
+    border-top-left-radius: 62px;
+    border-bottom-right-radius: 62px;
+}
+.formato-cajaE {
+    background-color: #464646;
+    float: left;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 65px;
+    width: 160px;
+    text-align: center; 
+}
+.formato-cajaF {
+    background-color: #464646;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 62px;
+    width: 62px;
+    text-align: center; 
+    border-radius:55px;
+}
+.formato-cajaG {
+    background-color: #464646;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 65px;
+    width: 160px;
+    text-align: center; 
+    border-bottom-right-radius: 218px;
+    border-top-left-radius: 62px;
+}
