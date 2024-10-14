@@ -1,0 +1,43 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ececec;
+}
+
+/* Estilo de la tarjeta de producto */
+.tarjeta-producto {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(16, 173, 50, 0.1); /* Sombra */box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+    text-align: center; /* Centrado del texto */
+}
+
+/* Estilo de la imagen del producto */
+.Ratón-de-ordenador {
+    width: 100%; /* Hace que la imagen ocupe el 100% del ancho de la tarjeta */ 
+    border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+/* Estilo del título del producto */
+.titulo-producto {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Estilo de la descripción del producto */
+.descripcion-producto {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Estilo del precio del producto */
+.precio-producto {
+    font-size: 1.2em;
+    color: #e74c3c; /* Color rojo para el precio */
+    font-weight: none;
+    margin: 10px 0;
+}
