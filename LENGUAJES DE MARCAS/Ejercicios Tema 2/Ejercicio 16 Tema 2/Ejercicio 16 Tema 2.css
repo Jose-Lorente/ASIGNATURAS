@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Gris claro para el fondo del cuerpo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #4a90e2;
+    color:#ffffff;
+}
+
+nav {
+    background-color: #34495e;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+nav ul li {
+    margin: 15px; ;
+}
+
+nav ul li a {
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    background-color: #1abc9c;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 40px;
+    max-width: 800px; /* Ancho máximo para el contenido */
+    margin: 0 auto; /* Centrar el contenido */
+    background-color: #f9f9f9; 
+    flex-grow: 1; /* Hace que el main ocupe el espacio entre header y footer */
+   
+}
+
+main h2 {
+    text-align: center; /* Alinear el título al centro */
+    font-size: 1,5em; /* Tamaño de la fuente grande */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 20px; /* Separación debajo del título */
+}
+
+main p {
+    font-size: 1.1em; 
+    line-height: 1.6; /* Altura de línea del parrafo*/
+    margin-bottom: 5px; /* Espacio debajo del párrafo */
+}
+
+main ul {
+    list-style: disc inside; /* Los puntos se ponen mejor ajustados*/
+    margin-left: 30px; /* Espaciado para las viñetas */
+    padding-left: 0;
+}
+
+main ul li {
+    font-size: 1.1em; /* Tamaño de texto para las viñetas */
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}

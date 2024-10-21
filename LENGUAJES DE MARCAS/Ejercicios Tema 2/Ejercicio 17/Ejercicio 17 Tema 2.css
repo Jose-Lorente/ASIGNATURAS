@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenido ocupe al menos la altura de la ventana */
+}
+
+/* Estilo para la cabecera */
+header {
+    background-color: #4a90e2; /* Azul claro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-tienda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-tienda img {
+    width: 100px; /* Tamaño del logo */
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Estilo para la sección principal */
+main {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    padding: 20px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crea 4 columnas */
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle efecto */
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.producto .precio {
+    font-size: 1.2em;
+    color: #1abc9c; /* Verde para resaltar el precio */
+    font-weight: bold;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
