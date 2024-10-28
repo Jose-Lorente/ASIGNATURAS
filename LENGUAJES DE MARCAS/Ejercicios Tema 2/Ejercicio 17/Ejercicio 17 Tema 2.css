@@ -22,15 +22,24 @@ header {
     text-align: center;
 }
 
-.logo-tienda {
+img {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
+.logo-tienda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
 .logo-tienda img {
-    width: 100px; /* Tamaño del logo */
+    width: 60px; /* Tamaño del logo */
+
 }
 
 header h1 {

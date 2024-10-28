@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jose Antonio Lorente Moya">
+    <title>Incidencia de clase</title>
+    <link rel="stylesheet" href="Ejercicio-13-Tema2.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/IAT-LOGOTIPO.jpg" alt="Logo del centro" class="logo">
+    </header>
+
+    <section>
+        <form action="procesarincidencia.php" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Nueva Incidencia</legend>
+
+                <!-- Profesor que indica la incidencia -->
+                <label for="profesor">Profesor *:</label>
+                <input type="text" id="profesor" name="profesor" placeholder="Escribe tu nombre aquí" required><br>
+
+                <!-- Correo electrónico -->
+                <label for="correo">Correo electrónico *:</label>
+                <input type="email" id="correo" name="correo" placeholder="Escribe tu correo aquí." required><br>
+
+                <!-- Departamento -->
+                <label for="aula">Departamento *:</label>
+                    <select id="aula" name="aula" required>
+                    <option value="" disabled selected>Informática</option> 
+                    <option value="2"></option>
+                </select><br>
+
+                <!-- Aula -->
+                <label for="aula">Aula *:</label>
+                <input type="number" id="aula" name="aula" placeholder="Indica aquí el aula de la in" required><br>
+
+                <!-- Día de la incidencia -->
+                <label for="dia">Día de la incidencia *:</label>
+                <input type="week" id="dia" name="dia" required><br>
+
+                <!-- Hora de la incidencia -->
+                <label for="hora">Hora de la incidencia *:</label>
+                <input type="time" id="hora" name="hora" required><br>
+
+                <!-- Descripción de la incidencia -->
+                <label for="descripcion">Descripción de la incidencia *:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" required></textarea><br>
+
+                <!-- Imagen de la incidencia -->
+                <label for="imagen">Imagen de la incidencia (opcional):</label>
+                <input type="file" id="imagen" name="imagen"><br>
+
+                <!-- Botones de enviar y resetear -->
+                <div class="botones">
+                    <button type="submit">Enviar incidencia</button>
+                    <button type="reset">Borrar formulario</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+
+    <footer>
+        <h3>Síguenos</h3>
+        <div class="redes">
+            <a href="https://www.facebook.com/cpifpalanturing/?_rdr"><img src="images/icons8-facebook-48.png" alt="Facebook" class="icono"></a>
+            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fcpifpalanturing"><img src="images/icons8-twitter-48.png" alt="Twitter" class="icono"></a>
+            <a href="https://www.instagram.com/cpifpalanturing/"><img src="images/icons8-instagram-48.png" alt="Instagram" class="icono"></a>
+            <a href="https://www.youtube.com/channel/UCWMTHvA1A_lKIzm6-DwZAJA"><img src="images/icons8-youtube-48.png" alt="YouTube" class="icono"></a>
+            <a href="https://fpalanturing.es/"><img src="images/icons8-website-48.png" alt="Página web del centro" class="icono"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
